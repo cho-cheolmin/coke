@@ -28,8 +28,8 @@ export default function HomeExperience() {
             <h1>당신의 오늘에<br /><em>작은 별빛</em>을<br />비춰드릴게요</h1>
             <p className="hero-copy">생일과 마음 한 조각이면 충분해요.<br />계절의 언어로 천천히 읽어드려요.</p>
           </div>
-          <div className="moon-figure" aria-label="별을 바라보는 토끼 일러스트">
-            <span className="moon">☾</span><span className="rabbit">♙</span>
+          <div className="bird-figure" role="img" aria-label="하늘로 날아오르는 푸른 새 수채화">
+            <span className="bird-glow" aria-hidden="true" />
           </div>
         </div>
 
@@ -38,7 +38,7 @@ export default function HomeExperience() {
           <strong>나만의 별자리 지도</strong>
           <span>기질, 관계, 앞으로의 흐름을<br />한 장의 이야기로 만나보세요.</span>
           <span className="gold-button">지도 펼치기 · 1,200원 <b>→</b></span>
-          <span className="constellation" aria-hidden="true">· ✦ ·<br />✦ ╱ ·</span>
+          <span className="constellation" aria-hidden="true">⌁ · ✦<br />· 〰</span>
         </button>
 
         <div className="section-title"><span>가볍게 먼저 · 무료</span></div>
