@@ -41,7 +41,7 @@ DB 데이터까지 초기화하려면 `docker compose down -v`를 사용합니�
 
 ## 로컬 개발
 
-프런트엔드는 Node.js 20 이상에서 다음 명령으로 실행합니다.
+프런트엔드는 Node.js 24 LTS에서 실행합니다.
 
 ```bash
 npm install
