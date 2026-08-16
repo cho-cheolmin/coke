@@ -1,0 +1,17 @@
+spring:
+  config:
+    import: optional:file:.env[.properties]
+  datasource:
+    url: jdbc:postgresql://${DB_HOST:localhost}:${DB_PORT:5432}/${DB_NAME:byeolbit}
+    username: ${DB_USERNAME:byeolbit}
+    password: ${DB_PASSWORD:local-secret}
+  jpa:
+    hibernate:
+      ddl-auto: validate
+    open-in-view: false
+  sql:
+    init:
+      mode: always
+  jpa.defer-datasource-initialization: false
+server:
+  port: ${SERVER_PORT:8080}
