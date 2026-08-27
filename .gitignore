@@ -8,3 +8,5 @@ build/
 .DS_Store
 *.iml
 postgres-data/
+.gradle-codex/
+pptx_theme_work/

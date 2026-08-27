@@ -2,8 +2,8 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "별빛재 | 오늘의 마음을 읽는 곳",
-  description: "별과 계절의 언어로 만나는 나의 오늘"
+  title: "LIVINGON | 생활의 기준을 다시",
+  description: "주방·생활가전과 렌탈을 한 곳에서 만나는 프리미엄 라이프숍"
 };
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
@@ -13,4 +13,3 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
     </html>
   );
 }
-

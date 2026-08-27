@@ -2,8 +2,8 @@ spring:
   config:
     import: optional:file:.env[.properties]
   datasource:
-    url: jdbc:postgresql://${DB_HOST:localhost}:${DB_PORT:5432}/${DB_NAME:byeolbit}
-    username: ${DB_USERNAME:byeolbit}
+    url: jdbc:postgresql://${DB_HOST:localhost}:${DB_PORT:5432}/${DB_NAME:livingon}
+    username: ${DB_USERNAME:livingon}
     password: ${DB_PASSWORD:local-secret}
   jpa:
     hibernate:

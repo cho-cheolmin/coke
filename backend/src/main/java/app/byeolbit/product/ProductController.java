@@ -1,0 +1,9 @@
+package app.byeolbit.product;
+import org.springframework.web.bind.annotation.*;
+import java.util.List;
+@RestController @RequestMapping("/api/products") @CrossOrigin(origins={"http://localhost:3000","http://127.0.0.1:3000"})
+public class ProductController {
+ private final ProductRepository products;
+ public ProductController(ProductRepository products){this.products=products;}
+ @GetMapping public List<Product> list(){return products.findAllByOrderByIdAsc();}
+}
